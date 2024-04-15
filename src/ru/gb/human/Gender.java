@@ -1,2 +1,7 @@
-package ru.gb;public enum Gender {
+package ru.gb.human;
+
+public enum Gender {
+    Male, Female
+}
+
 }

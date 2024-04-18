@@ -1,4 +1,4 @@
-package service;
+package human;
 
 import human.Human;
 

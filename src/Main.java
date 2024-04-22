@@ -16,7 +16,7 @@ public class Main {
 
         //save(tree, filePath);
         System.out.println("\n");
-        //FamilyTree.sortByName();
+        //FamilyTree.sortByDeathDate();
 
         System.out.println(tree);
     }

@@ -1,5 +1,8 @@
 package family_tree;
 
+import comparators.FamilyTreeComparatorByBirthDate;
+import comparators.FamilyTreeComparatorByName;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -2,6 +2,8 @@ import family_tree.FamilyTree;
 import family_tree.FamilyTreeIterator;
 import human.Gender;
 import human.Human;
+import presenter.FamilyTreePresenter;
+import view.FamilyTreeView;
 import writer.FileHandler;
 
 import java.time.LocalDate;
@@ -19,6 +21,10 @@ public class Main {
         //FamilyTree.sortByDeathDate();
 
         System.out.println(tree);
+
+        FamilyTreeView view = new FamilyTreeView();
+        FamilyTreePresenter presenter = new FamilyTreePresenter(tree, view);
+        presenter.start();
     }
 
     static FamilyTree read(String filePath) {

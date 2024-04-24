@@ -1,5 +1,6 @@
-package family_tree;
+package comparators;
 
+import family_tree.TreeNode;
 import human.Human;
 
 import java.util.Comparator;
